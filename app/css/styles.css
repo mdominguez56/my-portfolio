@@ -7,8 +7,9 @@
 }
 /*Colores*/
 :root{
-  --first-color: #4070F4;
-  --second-color: #0E2431;
+  --first-color: #F5564E;
+  --second-color: #1A3263;
+  --third-color: #E8E2DB;
 }
 /*Fuente y tipografia*/
 :root{
@@ -261,7 +262,6 @@ img{
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
 }
 .skills__names{
   display: flex;
@@ -288,6 +288,9 @@ img{
 .skills__ux{
   width: 85%;
 }
+.skills__react{
+  width: 65%;
+  }
 .skills__img{
   border-radius: .5rem;
 }
@@ -343,7 +346,7 @@ img{
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--third-color);
   margin: 0 var(--mb-2)
 }
 /*MEDIA QUERIES*/

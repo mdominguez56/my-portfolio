@@ -263,6 +263,21 @@ img{
   font-size: 2rem;
   margin-right: var(--mb-2);
 }
+.html{
+    color: #DD4B25
+}
+.css{
+    color: #1364A6
+}
+.js{
+    color: #DD9C28;
+}
+.react{
+    color: #5ED3F3;
+}
+.node{
+    color: #5AAA45;
+}
 .skills__names{
   display: flex;
   align-items: center;
@@ -290,6 +305,9 @@ img{
 }
 .skills__react{
   width: 65%;
+}
+.skills__node{
+    width: 50%;
   }
 .skills__img{
   border-radius: .5rem;

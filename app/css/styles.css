@@ -345,7 +345,7 @@ img{
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin-left: 7.2rem;
 }
 /*Footer*/
 .footer{
@@ -365,7 +365,8 @@ img{
 .footer__icon{
   font-size: 1.5rem;
   color: var(--third-color);
-  margin: 0 var(--mb-2)
+  margin: 0 var(--mb-2);
+  text-align: center;
 }
 /*Media queries responsive*/
 @media screen and (min-width: 768px){

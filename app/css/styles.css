@@ -1,3 +1,5 @@
+/*PASAR TODO EL ARCHIVO A BEM Y LUEGO A SASS*/
+
 /*Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 /*CSS Variables*/
@@ -329,6 +331,9 @@ img{
   transform: scale(1.1);
 }
 /*Contacts*/
+#contact{
+  align-items: center;
+}
 .contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
@@ -346,6 +351,9 @@ img{
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: 7.2rem;
+}
+.contact__container a{
+  margin: 1rem;
 }
 /*Footer*/
 .footer{
@@ -436,9 +444,6 @@ img{
   }
   .contact__form{
     width: 360px;
-  }
-  .contact__container{
-    justify-items: center;
   }
 }
 @media screen and (min-width: 1024px){
